@@ -148,33 +148,61 @@ h2{
         padding-left: 0px;
 }
 .text{
-    margin-left: 160px;
+    margin-left: 138px;
     font-size: 20px;
 }
 .text2{
-    margin-left: 193px;
+    margin-left: 160px;
     margin-top: -52px;
+    font-size: 16px;
 }
 .box{
-    margin-left: 20px;
+    width:228px;
+    height:214px;
     flex-direction: column;
+    margin-left: -18px;
 }
 #box4{
    
-    left: 63px;
+    left: 40px;
     top: 812px;
     
 }
 #box2{
     
     
-    left: 64px;
+    left: 40px;
     height: 230px;
     top: 511px;
 }
 #box1{
     bottom: 34px;
-    left: 64px;
+    left: 40px;
     top: 196px;
 }
+.container{
+    
+    width: 78%;
+height: 550px;
+margin-left: 136px;
+margin-top: 60px;
+
+}
+.Add-New-Task {
+    width: 312px;
+    height: 222px;
+    border: 1px solid rgb(235, 231, 231);
+    border-radius: 20px;
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 0px 0px 15px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 893px;
+    left: 16px;
+  }
+  .input {
+    width: 230px;
+    height: 40px;
+  }
  }
