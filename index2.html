@@ -7,19 +7,75 @@
     <title>Project2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    @media only screen and (max-width:1020px){
+    .Add-New-Task{
+    left:245px;
+    }
+}
+@media only screen and (max-width:920px){
+    .Add-New-Task{
+    left:245px;
+    }
+}
+@media only screen and (max-width:520px){
+    .Add-New-Task{
+    left:30px;
+    }
+    .input{
+    width: 177px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border: none;
+    }
+} 
+@media only screen and (max-width:730px){
+    .Add-New-Task{
+        left: 38px;
+    width: 352px;
+    }
+    .input {
+    width: 277px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border: none;
+  } 
+}
+@media only screen and (max-width:380px){
+    .Add-New-Task{
+    left:95px;
+    width: 200px;
+    }
+
+  .input {
+    width: 177px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border: none;
+  } 
+  .fa-xmark {
+    position: absolute;
+    left: 430px;
+  }
+}
+</style>
 </head>
 <body>
-    <footer class="footer">
-        <h2 style>Tasks<span style="color:rgb(18, 178, 218)"> Lists</span></h2>
-    </footer>
+    <nav>
+        <header>
+        <h2>Tasks<span style="color:rgb(18, 178, 218)"> Lists</span></h2>
+        </header>
     <div class="plus">
     <!--<div class="fa-sharp fa-solid fa-circle-plus text"></div>-->
-    <a href="index3.html"><i class="fa-sharp fa-solid fa-circle-plus text"></i></a>
-    <div class="text2"><a style="text-decoration: none;color: black;" href="index3.html">Add new Task</a></div>
+    <a href="index2.html"><i class="fa-sharp fa-solid fa-circle-plus text"></i></a><br><br><br><br>
+    <div class="text2"><a style="text-decoration: none;color: black;" href="index2.html">Add new Task</a></div>
     </div>
     <div class="container">
         <div class="box" id="box1">
-            <a style="text-decoration:none;color:rgb(18, 178, 218);" href="index1.html"><p class="a1">Trip to Paris</p></a>
+           <a style="text-decoration:none;color:rgb(18, 178, 218);" href="index1.html"><p class="a1">Trip to Paris</p></a>
             <hr style="height: 0.5px;border:none;color:#333;background-color:#f1f1f1;" />
             
             <br>
@@ -38,16 +94,7 @@
                  <input type="checkbox">Buy Vegetables  
             </form>
         </div>
-        <div class="box" id="box3">
-            <p class="a1">Movies I will Watch</p>
-            <hr style="height: 0.5px;border:none;color:#333;background-color:#f1f1f1;" />
-            
-            <br>
-            <form class="f1">
-                <input type="checkbox" checked disabled><del>Stranger Things 4</del><br><br>
-                 <input type="checkbox">Avengers Endgame
-            </form>
-        </div>
+       
         <div class="box" id="box4">
             <p class="a1">Daily Morning Routine for</p>
             <hr style="height: 0.5px;border:none;color:#333;background-color:#f1f1f1;" />
@@ -58,17 +105,7 @@
                 <input type="checkbox">Sleep at 10pm
                  
             </form>
-        </div>
-        <div class="box" id="box5">
-            <p class="a1">Books to Read</p>
-            <hr style="height: 0.5px;border:none;color:#333;background-color:#f1f1f1;" />
-            
-            <br>
-            <form class="f1">
-                <input type="checkbox" checked disabled><del>Design to read</del><br><br>
-                <input type="checkbox">Alchemist
-                  
-            </form>
+    
         </div>
     </div>
     <div class="popup">

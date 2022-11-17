@@ -1,47 +1,60 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
-    background-color: whitesmoke;
-    margin: 0;
+    background: rgb(233, 230, 230);
+}
+nav header{
+    width:100%;
+    height:80px;
+    background: white;
+    font-weight: bold;
+   
+    
+}
+h2{
+    line-height: 80px;
+    margin:0px 35px;
 }
    
-.footer{
-    padding: 1px;
-    background-color:white;
-    font-size: 20px;
-    font-style: bold;
-    padding-left: 90px;
-}
+
 .text{
     font-size: 45px;
-    top: 130px;
+    float: right;
     margin-top: 20px;
     color:rgb(87, 189, 236);
-margin-left: 1011px;
+    padding: 0px 40px;
+    margin-right:240px;
 width: 50px;
 height: 50px;
 /* UI Properties */
-background:whitesmoke 0% 0% no-repeat padding-box;
+background:rgb(233, 230, 230) 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 .text2{
-        width: 150px;
+    width: 150px;
     height: 20px;
     font-size: 20px;
-    margin-left: 1063px;
+    float: right;
     margin-top: -41px;
+    margin-right: 80px;
 }
 .container{
-    
         width: 78%;
     height: 550px;
-    margin-left: 136px;
-    margin-top: 60px;
+    margin: auto;
+    margin-top: 81px;
+    align-items: center;
     
 }
 .box{
     background-color: rgb(255, 255, 255);
-    width:300px;
-    height:244px;
-    margin: 0px;
+    width:320px;
+    height:264px;
+    margin: 20px;
     margin-left: 30px;
     border-radius: 10px;
     display: inline-block;
@@ -50,39 +63,6 @@ opacity: 1;
     box-shadow: 10px 10px 8px 10px #888888;
 }
 
-#box4{
-    position: absolute;
-    bottom: -86px;
-    left: 142px;
-    height: 230px;
-    color: rgb(18, 178, 218);
-}
-
-#box5{
-    position: absolute;
-    bottom: -86px;
-    right: 531px;
-    height: 230px;
-    color: rgb(18, 178, 218);
-}
-#box1{
-    position: absolute;
-    bottom: 186px;
-    left: 64px;
-    color: rgb(18, 178, 218);
-}
-#box2{
-    position: absolute;
-    top: 225px;
-    left: 486px;
-    color: rgb(18, 178, 218);
-}
-#box3{
-    position: absolute;
-    top: 225px;
-    left: 821px;
-    color: rgb(18, 178, 218);
-}
 .a1{
     margin: 20px;
     font-size: large;
@@ -120,6 +100,7 @@ opacity: 1;
     position: fixed;
     bottom: 210px;
     left: 480px;
+   
   }
   .fa-xmark {
     position: absolute;
@@ -132,77 +113,21 @@ opacity: 1;
     background-color: #f7f7f7;
     border: none;
   }
-  @media screen and (max-width:480px)
- {
-body{
-   width: fit-content;
-   margin:0px;
-   padding:0px;
-}
-footer{
-      width:95%;
-}
-h2{
+  @media screen and (max-width:941px){
     
-    padding:0px;
-        padding-left: 0px;
-}
-.text{
-    margin-left: 138px;
-    font-size: 20px;
-}
-.text2{
-    margin-left: 160px;
-    margin-top: -52px;
-    font-size: 16px;
-}
-.box{
-    width:228px;
-    height:214px;
-    flex-direction: column;
-    margin-left: -18px;
-}
-#box4{
-   
-    left: 40px;
-    top: 812px;
-    
-}
-#box2{
-    
-    
-    left: 40px;
-    height: 230px;
-    top: 511px;
-}
-#box1{
-    bottom: 34px;
-    left: 40px;
-    top: 196px;
-}
-.container{
-    
-    width: 78%;
-height: 550px;
-margin-left: 136px;
-margin-top: 60px;
+   .box{
+    display: block;
+    align-items: center;
+    margin: auto;
+   }
+  }
 
+@media screen and(max-width:275){
+    .box{
+     margin: 20px 0px;
+        
+    }
+    .text2{
+        font-size: 15px;
+    }
 }
-.Add-New-Task {
-    width: 312px;
-    height: 222px;
-    border: 1px solid rgb(235, 231, 231);
-    border-radius: 20px;
-    background-color: white;
-    font-size: x-large;
-    padding: 10px 0px 0px 15px;
-    font-weight: bold;
-    position: fixed;
-    bottom: 745px;
-    left: 16px;
-  }
-  .input {
-    width: 230px;
-    height: 40px;
-  }
- }
